@@ -167,6 +167,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2022-04-30 11:38:31 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2021-01-01 13:01:04 +0200"
@@ -182,6 +188,12 @@
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2021-01-04 20:55:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2022-04-28 16:47:41 +0300"
     },
     "done": true
   },
@@ -251,6 +263,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blue_carpet": {
+    "criteria": {
+      "has_blue_wool": "2022-04-28 16:07:03 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2021-01-01 13:47:50 +0200"
@@ -308,6 +326,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2021-01-01 13:01:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-30 11:30:47 +0300"
     },
     "done": true
   },
@@ -641,6 +665,12 @@
     },
     "done": true
   },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2022-04-30 12:16:44 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2021-01-03 14:31:18 +0200"
@@ -731,6 +761,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-30 11:30:47 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2021-01-01 13:06:50 +0200"
@@ -758,6 +794,12 @@
   "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2021-01-02 19:01:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-30 11:30:47 +0300"
     },
     "done": true
   },
@@ -917,9 +959,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-30 11:30:47 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_poppy": "2022-04-22 15:48:50 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2022-04-30 11:30:47 +0300"
     },
     "done": true
   },
@@ -962,6 +1016,12 @@
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2021-01-01 13:01:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-30 11:30:47 +0300"
     },
     "done": true
   },
@@ -1067,6 +1127,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-30 11:30:47 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/stone_button": {
     "criteria": {
       "has_stone": "2022-04-23 17:35:37 +0300"
@@ -1088,6 +1154,12 @@
   "minecraft:recipes/decorations/cobbled_deepslate_wall": {
     "criteria": {
       "has_cobbled_deepslate": "2022-04-23 18:56:17 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-30 11:30:47 +0300"
     },
     "done": true
   },
@@ -1229,6 +1301,7 @@
       "minecraft:birch_forest": "2022-04-23 17:16:46 +0300",
       "minecraft:windswept_hills": "2022-04-23 12:37:27 +0300",
       "minecraft:beach": "2022-04-23 19:53:32 +0300",
+      "minecraft:dark_forest": "2022-04-28 16:29:25 +0300",
       "minecraft:river": "2021-01-01 13:30:00 +0200",
       "minecraft:dripstone_caves": "2022-04-23 18:55:55 +0300",
       "minecraft:swamp": "2021-01-01 14:27:57 +0200",
@@ -1517,6 +1590,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2022-04-28 16:07:03 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
     "criteria": {
       "has_black_dye": "2022-04-23 20:00:19 +0300"
@@ -1550,6 +1629,12 @@
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_gravel": "2021-01-01 13:56:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed": {
+    "criteria": {
+      "has_blue_wool": "2022-04-28 16:07:03 +0300"
     },
     "done": true
   },
@@ -1751,6 +1836,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2022-04-30 11:45:55 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2021-01-01 14:21:15 +0200"
@@ -1793,6 +1884,7 @@
       "potato": "2022-04-23 11:58:06 +0300",
       "mutton": "2021-01-03 13:52:27 +0200",
       "bread": "2021-01-01 13:33:17 +0200",
+      "glow_berries": "2022-04-28 16:06:24 +0300",
       "salmon": "2021-01-02 17:54:21 +0200",
       "melon_slice": "2022-04-23 13:28:52 +0300",
       "cooked_chicken": "2021-01-01 13:55:03 +0200",
@@ -1870,6 +1962,12 @@
   "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2021-01-02 19:01:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-30 11:30:47 +0300"
     },
     "done": true
   },
@@ -2152,6 +2250,18 @@
   "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-04-24 13:35:58 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2022-04-30 11:30:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2022-04-30 11:45:55 +0300"
     },
     "done": true
   },
@@ -2569,6 +2679,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-30 11:30:47 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_terracotta": {
     "criteria": {
       "has_terracotta": "2022-04-23 12:33:16 +0300"
@@ -2623,6 +2739,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2022-04-30 11:30:47 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_basalt": {
     "criteria": {
       "has_basalt": "2022-04-23 12:08:31 +0300"
@@ -2644,6 +2766,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2021-01-01 13:00:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2022-04-30 11:30:47 +0300"
     },
     "done": true
   },
@@ -2713,6 +2841,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-30 11:30:47 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/powered_rail": {
     "criteria": {
       "has_rail": "2021-01-01 13:38:15 +0200"
@@ -2728,6 +2862,12 @@
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2022-04-23 17:57:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-30 11:30:47 +0300"
     },
     "done": true
   },
@@ -2830,6 +2970,12 @@
   "minecraft:recipes/redstone/birch_trapdoor": {
     "criteria": {
       "has_planks": "2022-04-22 17:51:48 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-30 11:30:47 +0300"
     },
     "done": true
   },
