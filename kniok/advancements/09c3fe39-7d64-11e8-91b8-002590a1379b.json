@@ -1,21 +1,10 @@
 {
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:cold_ocean": "2019-08-08 12:18:20 +0300",
-      "minecraft:forest": "2019-08-05 20:49:21 +0300",
       "minecraft:taiga": "2019-08-08 12:33:14 +0300",
       "minecraft:deep_ocean": "2022-04-21 20:14:33 +0300",
-      "minecraft:deep_cold_ocean": "2019-08-06 15:27:58 +0300",
-      "minecraft:frozen_ocean": "2022-04-23 16:02:05 +0300",
-      "minecraft:desert": "2019-08-08 08:24:01 +0300",
-      "minecraft:deep_frozen_ocean": "2019-08-08 12:32:24 +0300",
-      "minecraft:windswept_forest": "2019-08-06 18:32:22 +0300",
-      "minecraft:ocean": "2022-04-21 20:13:26 +0300",
       "minecraft:birch_forest": "2019-08-08 08:38:11 +0300",
       "minecraft:windswept_hills": "2019-08-06 15:29:01 +0300",
-      "minecraft:warm_ocean": "2022-04-23 16:05:53 +0300",
-      "minecraft:deep_lukewarm_ocean": "2019-08-06 15:23:45 +0300",
-      "minecraft:flower_forest": "2023-02-08 16:25:11 +0200",
       "minecraft:savanna_plateau": "2019-08-08 08:51:09 +0300",
       "minecraft:beach": "2019-08-04 11:20:24 +0300",
       "minecraft:dark_forest": "2019-08-08 12:17:34 +0300",
@@ -23,8 +12,19 @@
       "minecraft:lukewarm_ocean": "2019-08-06 15:23:48 +0300",
       "minecraft:stony_shore": "2019-08-06 15:29:00 +0300",
       "minecraft:dripstone_caves": "2022-04-27 20:33:54 +0300",
-      "minecraft:old_growth_birch_forest": "2022-04-23 16:06:28 +0300",
       "minecraft:swamp": "2023-02-08 16:28:42 +0200",
+      "minecraft:cold_ocean": "2019-08-08 12:18:20 +0300",
+      "minecraft:forest": "2019-08-05 20:49:21 +0300",
+      "minecraft:deep_cold_ocean": "2019-08-06 15:27:58 +0300",
+      "minecraft:frozen_ocean": "2022-04-23 16:02:05 +0300",
+      "minecraft:desert": "2019-08-08 08:24:01 +0300",
+      "minecraft:deep_frozen_ocean": "2019-08-08 12:32:24 +0300",
+      "minecraft:windswept_forest": "2019-08-06 18:32:22 +0300",
+      "minecraft:ocean": "2022-04-21 20:13:26 +0300",
+      "minecraft:warm_ocean": "2022-04-23 16:05:53 +0300",
+      "minecraft:deep_lukewarm_ocean": "2019-08-06 15:23:45 +0300",
+      "minecraft:flower_forest": "2023-02-08 16:25:11 +0200",
+      "minecraft:old_growth_birch_forest": "2022-04-23 16:06:28 +0300",
       "minecraft:meadow": "2022-04-27 20:35:12 +0300",
       "minecraft:savanna": "2019-08-06 15:26:11 +0300",
       "minecraft:plains": "2019-08-04 11:20:23 +0300"
@@ -70,12 +70,6 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2019-08-04 11:23:46 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2023-12-26 13:59:36 +0200"
     },
     "done": true
   },
@@ -376,14 +370,14 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2019-08-06 10:26:56 +0300",
+      "minecraft:ravager": "2019-08-04 12:42:18 +0300",
+      "minecraft:spider": "2019-08-04 12:20:36 +0300",
+      "minecraft:creeper": "2019-08-12 10:59:54 +0300",
       "minecraft:phantom": "2019-12-25 10:24:32 +0200",
       "minecraft:witch": "2020-12-29 17:54:05 +0200",
-      "minecraft:spider": "2019-08-04 12:20:36 +0300",
+      "minecraft:husk": "2020-12-29 17:53:47 +0200",
       "minecraft:zombie": "2019-08-04 12:54:35 +0300",
-      "minecraft:creeper": "2019-08-12 10:59:54 +0300",
-      "minecraft:drowned": "2019-08-07 14:54:28 +0300",
-      "minecraft:ravager": "2019-08-04 12:42:18 +0300",
-      "minecraft:husk": "2020-12-29 17:53:47 +0200"
+      "minecraft:drowned": "2019-08-07 14:54:28 +0300"
     },
     "done": false
   },
@@ -2463,6 +2457,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-12-26 13:59:36 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2023-12-26 14:07:21 +0200"
@@ -2487,5 +2487,245 @@
     },
     "done": true
   },
-  "DataVersion": 3578
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-12-26 17:33:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2023-12-26 17:33:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-12-26 17:33:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-12-26 17:33:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-12-26 17:33:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-12-26 17:33:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-12-26 17:33:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-12-26 17:33:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-12-26 17:33:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2023-12-26 17:50:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2023-12-27 13:11:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2023-12-27 11:48:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-12-27 11:49:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2023-12-27 13:11:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-12-27 11:49:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2023-12-27 11:48:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-12-27 11:49:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall": {
+    "criteria": {
+      "has_deepslate_bricks": "2023-12-27 11:48:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-12-27 11:49:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2023-12-27 21:16:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2023-12-27 13:11:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs": {
+    "criteria": {
+      "has_deepslate_bricks": "2023-12-27 11:48:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2023-12-27 13:11:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2023-12-27 11:48:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2023-12-27 13:11:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2023-12-27 11:48:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab": {
+    "criteria": {
+      "has_deepslate_bricks": "2023-12-27 11:48:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2023-12-27 20:12:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2023-12-27 13:11:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2023-12-27 11:48:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-12-27 11:49:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-12-27 11:49:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_bricks": {
+    "criteria": {
+      "has_deepslate_bricks": "2023-12-27 11:48:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2023-12-27 11:48:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_bricks": "2023-12-27 11:48:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2023-12-27 21:16:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2023-12-27 13:11:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2023-12-27 11:48:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-12-27 11:49:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2023-12-27 11:48:43 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
 }
